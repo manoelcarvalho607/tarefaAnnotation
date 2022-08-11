@@ -18,5 +18,7 @@ import java.lang.annotation.Target;
 
 public @interface NomeTabela {
 
-		String[] automoveis();
+		
+		
+		String value();
 }
